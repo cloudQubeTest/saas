@@ -31,7 +31,7 @@ app.use(app.router);
 app.use(express.static(path.join(__dirname, 'public')));
 
 //call mongoose connect to connect to local database here
-//mongoose.connect(/*database here*/);
+mongoose.connect('mongodb://127.0.0.1:27017');
 
 
 
