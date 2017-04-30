@@ -13,4 +13,4 @@ var recipeSchema= new mongoose.Schema({
 
 })
 
-var Recipe= mongoose.model('Recipe', recipeSchema)
+var Recipe= mongoose.model('Recipe', recipeSchema);
