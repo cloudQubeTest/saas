@@ -11,7 +11,8 @@ recipeCollection.insert(
     protein: 26.5,
     fat: 27.5,
     carbs: 40,
-    sugar: 20
+    sugar: 20,
+    goal: 'Maintain'
 }
 )
 recipeCollection.insert(
@@ -23,7 +24,8 @@ recipeCollection.insert(
     protein: 8,
     fat: 27.5,
     carbs: 40,
-    sugar: 10
+    sugar: 10,
+    goal: 'Bulk'
 }
 )
 recipeCollection.insert(
@@ -35,7 +37,8 @@ recipeCollection.insert(
     protein: 20,
     fat: 10,
     carbs: 20,
-    sugar: 3
+    sugar: 3,
+    goal: 'Cut'
 }
 )
 recipeCollection.insert(
@@ -47,6 +50,7 @@ recipeCollection.insert(
     protein: 30,
     fat: 15,
     carbs: 18,
-    sugar: 2
+    sugar: 2,
+    goal: 'Cut'
 }
 )

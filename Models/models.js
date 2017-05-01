@@ -22,7 +22,8 @@ var recipeSchema= new mongoose.Schema({
     protein: Number,
     fat: Number,
     carbs: Number,
-    sugar: Number
+    sugar: Number,
+    goal: String
 
 })
 
