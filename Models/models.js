@@ -79,4 +79,21 @@ salad.save(function (err, data){
     else console.log('Saved : ', data);
 });
 
+
+
+var avocadoToast= new Recipe({
+    recipeTitle: "Avocado Toast",
+    ingredients: "Avocado, Whole Wheat Bread, Lemon, Salt, Pepper, Smoked Salmon (Optional)",
+    instructions: "Mash avocado with lemon juice, add salt and pepper. Spread on toasted whole wheat bread and top with smoked salmon.",
+    calories: 300,
+    protein: 30,
+    fat: 15,
+    carbs: 18,
+    sugar: 2
+});
+
+avocadoToast.save(function(err,data){
+    if (err) console.log(err);
+    else console.log('Saved : ', data);
+});
 */
