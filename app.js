@@ -30,6 +30,9 @@ app.use(express.methodOverride());
 app.use(app.router);
 app.use(express.static(path.join(__dirname, 'public')));
 
+<<<<<<< HEAD
+app.use('/api', api);
+=======
 //call mongoose connect to connect to local database here
 //mongoose.connect(/*database here*/);
 
@@ -37,6 +40,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', index);
 app.use('/users', users);
+>>>>>>> refs/remotes/origin/master
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
